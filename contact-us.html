@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Bright Educational Society</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+<nav class="navbar">
+  <div class="nav-container">
+
+    <!-- LOGO -->
+    <div class="nav-logo">
+      <img src="https://cdn-ehlhnkh.nitrocdn.com/TaFlHRBcnrDqjrnigebKDHrOiRZQJOFy/assets/images/optimized/rev-21253c5/shifafoundation.org/wp-content/uploads/2023/07/shifa-300x104.png" alt="Logo">
+    </div>
+
+    <!-- MENU -->
+    <div class="nav-menu" id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="articles.html"> Articles</a>
+      <a href="contact-us.html">Contact</a>
+    </div>
+
+    <!-- BUTTON -->
+    <a href="donate-now.html" class="nav-btn">Donate Now</a>
+
+    <!-- HAMBURGER -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+  </div>
+</nav>
+
+<script>
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.getElementById("navMenu");
+
+hamburger.addEventListener("click", () => {
+  navMenu.classList.toggle("active");
+});
+</script>
+
+
+<!-- Hero -->
+ <div class="other-page-hero">
+    <h1>Contact Us</h1>
+ </div>
+
+    <section class="contact-section" id="contact-section">
+  <div class="contact-container">
+
+    <!-- LEFT SIDE: Contact Info -->
+    <div class="contact-info">
+      <h2 id="contact-heading">Reach Out</h2>
+      <p id="contact-text">Have questions or want to collaborate with Bright Educational Society? Fill out the form, and our team will get back to you promptly.</p>
+      <ul id="contact-details">
+        <li><i class="fa-solid fa-location-dot"></i> 123 Education Street, Islamabad, Pakistan</li>
+        <li><i class="fa-solid fa-phone"></i> +92 300 1234567</li>
+        <li><i class="fa-solid fa-envelope"></i> info@bes.org.pk</li>
+      </ul>
+    </div>
+
+    <!-- RIGHT SIDE: Contact Form -->
+    <div class="contact-form-container">
+      <form class="contact-form" id="contact-form">
+        <input type="text" id="contact-fullname" name="fullname" placeholder="Full Name" required>
+        <input type="email" id="contact-email" name="email" placeholder="Email" required>
+        <input type="tel" id="contact-phone" name="phone" placeholder="Phone" required>
+        <textarea id="contact-details-text" name="details" placeholder="Your Message" required></textarea>
+        <button type="submit" id="contact-submit">Submit</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<footer class="footer-section">
+  <div class="footer-container">
+
+    <!-- FIRST COLUMN: Logo + Text + Social -->
+    <div class="footer-col footer-about">
+      <img src="https://cdn-ehlhnkh.nitrocdn.com/TaFlHRBcnrDqjrnigebKDHrOiRZQJOFy/assets/images/optimized/rev-21253c5/shifafoundation.org/wp-content/uploads/2023/07/shifa-300x104.png" alt="BES Logo" class="footer-logo">
+      <p>Bright Educational Society (BES) is committed to advancing human capital, social equity, and sustainable development in Pakistan.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <!-- SECOND COLUMN: Quick Links -->
+    <div class="footer-col footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact-us.html">Contact</a></li>
+        <li><a href="articles.html"> Articless</a></li>
+        <li><a href="donate-now.html"> Donate Now</a></li>
+      </ul>
+    </div>
+
+    <!-- THIRD COLUMN: Legal -->
+    <div class="footer-col footer-legal">
+      <h3>Legal</h3>
+      <ul>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Cookie Policy</a></li>
+      </ul>
+    </div>
+
+    <!-- FOURTH COLUMN: Contact Us -->
+    <div class="footer-col footer-contact">
+      <h3>Contact Us</h3>
+      <ul>
+        <li><i class="fa-solid fa-location-dot"></i> 123 Education Street, Islamabad, Pakistan</li>
+        <li><i class="fa-solid fa-phone"></i> +92 300 1234567</li>
+        <li><i class="fa-solid fa-envelope"></i> info@bes.org.pk</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- COPYRIGHT LINE -->
+  <div class="footer-bottom">
+    <p>&copy; 2026 Bright Educational Society. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+</body>
+</html>
